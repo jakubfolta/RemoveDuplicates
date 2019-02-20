@@ -19,8 +19,7 @@ def remove_duplicates(numbers):
             continue
         else:
             numbers.remove(digit)
-    lessNumbers = numbers
-    return lessNumbers
+    return numbers
 
 print(remove_duplicates([1, 2, 2, 3, 4, 6, 6, 6, 7, 8]))
         
